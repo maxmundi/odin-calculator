@@ -44,7 +44,7 @@ body {
     justify-content: center;
 }
 
-.button {
+button {
     display: flex;
     box-sizing: border-box;
     width: 90px;
@@ -53,17 +53,11 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid white;
+    color: white;
+    background-color: black;
     border-radius: 5px;
 }
 
-.wideButton {
-    display: flex;
-    box-sizing: border-box;
+#equals {
     width: 190px;
-    height: 90px;
-    font-size: 50px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid white;
-    border-radius: 5px;
 }
